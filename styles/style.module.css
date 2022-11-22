@@ -1,8 +1,8 @@
 .main {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: darkseagreen;
+    color: black;
     padding: 20px;
-    width: 400px;
+    width: 800px;
     height: 99999px;
     margin: 30px auto;
     border-radius: 20px;
@@ -11,7 +11,9 @@
 }
 .baka{
     position: fixed;
-    bottom: 0;
+    color: black;
+    top: 0;
+    left: 0;
     text-shadow: red 5px 5px 5px;
     animation: rotation 4s linear infinite;
 }
@@ -24,6 +26,31 @@
     100% {transform: rotate(360deg);
         font-size: 10px;}
 }
+.neko{
+    background-color:cornflowerblue;
+    border-block: solid;
+    writing-mode: horizontal-tb;
+    text-align: center;
+}
+.neko ul{
+    margin: 0 ;
+    padding: 0 ;
+}
+.neko ul li{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+}
+.neko ul li a{
+    font-family: serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.neko ul li a:hover{
+    color: #E7DA66;
+}
 
 .boke{
 
@@ -31,17 +58,23 @@
 
 }
 .boke:hover {
-    color: aquamarine;
+    color: #ff7ff2;
     transform: rotate(-180deg);
 }
 
 
 .aho{
     display: flex;
-    justify-content: center;
-    height: 100px;
+    padding: 5px;
 }
 
-.manuke:hover {
+.manuke {
+    border: thick double aquamarine;
+    background-color: aquamarine;
+}
+.manuke h2 {
+    background-color: aqua;
+}
+.manuke h2:hover {
     display: none;
 }

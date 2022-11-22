@@ -3,16 +3,28 @@ import classes from "../styles/style.module.css";
 export default function Home() {
   return (
       <div className={classes.main}>
-          <h1 className={classes.baka}>
-              とうふ
-          </h1>
+          <header>
+              <h1 className={classes.baka}>
+                  とうふ
+              </h1>
+          </header>
+
+          <nav className={classes.neko}>
+              <ul >
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </nav>
+
           <ul>
-              <li >
-                  <h2 className={classes.manuke}>詳細：</h2>
+              <li  className={classes.manuke} >
+                  <h2 >詳細：</h2>
                   <ul>
 
                       <li>
-                          <h3>強さ</h3>
+                          <h3><strong>強さ</strong></h3>
                           <p className={classes.boke}>名前:とうふ</p>
                           <p className={classes.boke}>年齢:NaN</p>
                           <p className={classes.boke}>趣味:猫</p>
@@ -22,7 +34,7 @@ export default function Home() {
                           <p className={classes.boke}>mail:tk27344@gmail.com</p>
                       </li>
                       <li>
-                          <h3>あしあと</h3>
+                          <h3><strong>あしあと</strong></h3>
                           <p className={classes.boke}>wicon 脱退</p>
                       </li>
                   </ul>
