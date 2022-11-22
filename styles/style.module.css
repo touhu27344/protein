@@ -1,0 +1,47 @@
+.main {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    width: 400px;
+    height: 99999px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: #999999 10px 10px 10px;
+    font-family: "serif";
+}
+.baka{
+    position: fixed;
+    bottom: 0;
+    text-shadow: red 5px 5px 5px;
+    animation: rotation 4s linear infinite;
+}
+@keyframes rotation {
+    0% {transform: rotate(0);
+        font-size: 10px;}
+    50% {transform: rotate(240deg);
+        font-size: 100px;}
+    75% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);
+        font-size: 10px;}
+}
+
+.boke{
+
+    font-weight: bold;
+
+}
+.boke:hover {
+    color: aquamarine;
+    transform: rotate(-180deg);
+}
+
+
+.aho{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.manuke:hover {
+    display: none;
+}
