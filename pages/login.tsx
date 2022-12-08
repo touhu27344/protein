@@ -1,5 +1,5 @@
 import { Box, Button, Card, CardBody, Center, FormControl, FormLabel, Heading, HStack, Input, Text, Link, Stack, VStack } from "@chakra-ui/react";
-import { GithubLogo } from "../components/logo/gitHubLogo";
+import { GithubLogo } from "../components/logo/github-logo";
 
 const Login = () => {
   return (
