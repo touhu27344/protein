@@ -1,13 +1,14 @@
 import type { AppProps } from 'next/app'
 import Header from "../components/header";
+import { ChakraProvider } from '@chakra-ui/react'
 
-export default function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <div>
-        <Header
-            pageName='ぼけ'
-        />
-        <Component {...pageProps} />
-      </div>
+    <ChakraProvider>
+      <Header pageName='ぼけ' />
+      <Component {...pageProps} />
+    </ChakraProvider>
   )
 }
+
+export default MyApp
