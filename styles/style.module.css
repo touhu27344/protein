@@ -14,7 +14,6 @@
 }
 
 .header button:active{
-    box-shadow: inset -5px -5px 6px red;
     box-shadow: inset 2px 2px 3px rebeccapurple;
 }
 

@@ -1,24 +1,9 @@
 import classes from "../styles/style.module.css";
 
-export default function Home() {
+const Home = () => {
   return (
-      <div >
-          <header className={classes.header}>
-              <button  type="button" onClick={clickDisplayAlert} >
-                  <strong>あじぇんだ～＾</strong>
-              </button>
-          </header>
-
-          <nav className={classes.neko}>
-              <ul >
-                  <li><a href="#">Aho</a></li>
-                  <li><a href="#">BAKA</a></li>
-                  <li><a href="#">MANUKE</a></li>
-                  <li><a href="#">NEKO</a></li>
-              </ul>
-          </nav>
-
-          <body className={classes.body}>
+      <div>
+          <div className={classes.body}>
               <h1 className={classes.baka}>
                   とうふ
               </h1>
@@ -63,11 +48,9 @@ export default function Home() {
                       </ul>
                   </li>
               </ul>
-          </body>
+          </div>
         </div>
   )
 }
-function clickDisplayAlert(){
-    alert("カラビナが一番！");
-}
 
+export default Home
