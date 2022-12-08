@@ -15,15 +15,12 @@ const Header = (props: Props) => {
                     <strong>あじぇんだ～＾</strong>
                 </button>
             </header>
-            <div>
-                <p>現在のページ冥: {props.pageName}</p>
-            </div>
             <nav className={classes.neko}>
                 <ul >
-                    <li><a href="/aho">Aho</a></li>
+                    <li><a href="/aho">AHO</a></li>
                     <li><a href="/baka">BAKA</a></li>
-                    <li><a href="#">MANUKE</a></li>
-                    <li><a href="#">NEKO</a></li>
+                    <li><a href="/login">LOGIN</a></li>
+                    <li><a href="/neko">NEKO</a></li>
                 </ul>
             </nav>
         </div>
